@@ -6,6 +6,15 @@ public class Address {
 	private String town;
 	private String county;
 	private String postalCode;
+	
+	public Address(){}
+	public Address(String add1, String add2, String town, String county, String postCode){
+		setAddressLine1(add1);
+		setAddressLine2(add2);
+		setTown(town);
+		setCounty(county);
+		setPostalCode(postCode);
+	}
 
 	public String getAddressLine1() {
 		return addressLine1;
@@ -45,16 +54,5 @@ public class Address {
 
 	public void setPostalCode(String postalCode) {
 		this.postalCode = postalCode;
-	}
-
-	public Address(){}
-	public Address(String add1, String add2, String town, String county, String postCode){
-		setAddressLine1(add1);
-		setAddressLine2(add2);
-		setTown(town);
-		setCounty(county);
-		setPostalCode(postCode);
-	}
-	
-	
+	}	
 }

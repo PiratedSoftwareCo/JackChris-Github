@@ -5,6 +5,13 @@ public class OrderLine {
 	private String productName;
 	private int productAmount;
 	
+	public OrderLine(){}
+	public OrderLine(String ID, String name, int amount){
+		setProductID(ID);
+		setProductName(name);
+		setProductAmount(amount);
+	}
+	
 	public int getProductAmount() {
 		return productAmount;
 	}
