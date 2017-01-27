@@ -1,1 +1,2 @@
-# JackChris-Github
+# Jack & Chris bookshop project
+
